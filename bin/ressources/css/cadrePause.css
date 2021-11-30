@@ -1,0 +1,8 @@
+#cadre{
+	-fx-background-image: url("../images/pause.png");
+	-fx-background-size : cover;
+}
+
+.text{
+    -fx-font-smoothing-type: gray;
+}

@@ -1,0 +1,23 @@
+#plateauGP{
+  -fx-background-image: url("../images/plateau.png");
+  -fx-background-size : cover;
+  }
+
+#background{
+  -fx-background-size : cover;
+}
+
+#zoneDragMaison{
+  -fx-background-image: url("../images/zoneDrag.png");
+  -fx-background-size : cover;
+}
+
+#pauseButton:hover{
+  -fx-scale-y : 1.1;
+  -fx-scale-x : 1.1;
+}
+
+#pauseButton:pressed{
+  -fx-scale-y : 1;
+  -fx-scale-x : 1;
+}

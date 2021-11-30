@@ -1,0 +1,4 @@
+#background{
+	-fx-background-image: url("../images/background_night.png");
+	-fx-background-size : cover;
+}

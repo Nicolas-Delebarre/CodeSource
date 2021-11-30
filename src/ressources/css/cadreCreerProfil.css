@@ -1,0 +1,15 @@
+#cadre{
+	-fx-background-image: url("../images/pause.png");
+	-fx-background-size : cover;
+}
+
+.text{
+    -fx-font-smoothing-type: gray;
+}
+
+.text-field {
+    -fx-background-color: #F5F5F5, #FFFFFF;
+    -fx-background-insets: 0, 0 0 3 0 ;
+    -fx-background-radius: 5 ;
+}
+

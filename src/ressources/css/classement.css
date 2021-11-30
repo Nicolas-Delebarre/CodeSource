@@ -1,0 +1,31 @@
+#entete{
+	-fx-background-color : rgba(255, 255, 255, 0.85);
+	-fx-background-radius : 15 15 15 15;
+}
+
+.premiereLigne{
+	-fx-background-color : rgba(255, 255, 255, 0.5);
+	-fx-background-radius : 15 15 0 0;
+}
+
+.ligne{
+	-fx-background-color : rgba(255, 255, 255, 0.5);
+}
+
+.derniereLigne{
+	-fx-background-color : rgba(255, 255, 255, 0.5);
+	-fx-background-radius : 0 0 15 15;
+}
+
+.uniqueLigne{
+	-fx-background-color : rgba(255, 255, 255, 0.5);
+	-fx-background-radius : 15 15 15 15;
+}
+
+.focusLigne{
+	-fx-background-color : rgba(77, 194, 238, 0.5);
+	-fx-background-radius : 15 15 15 15;
+	-fx-background-insets : 1 -10 1 -10;
+	-fx-scale-x : 1.1;
+	-fx-scale-y : 1.1;
+}

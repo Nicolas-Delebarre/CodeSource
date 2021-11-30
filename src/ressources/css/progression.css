@@ -1,0 +1,16 @@
+#background{
+	-fx-background-image: url("../images/background_day.png");
+	-fx-background-size : cover;
+}
+
+#tableau{
+	-fx-background-color : rgba(255, 255, 255, 0.5);
+	-fx-background-insets : -10 -20 -10 -10;
+	-fx-background-radius : 20;
+}
+
+#infosVB{
+	-fx-background-color : rgba(255, 255, 255, 0.5);
+	-fx-background-insets : 100 50 100 50;
+	-fx-background-radius : 20;
+}
