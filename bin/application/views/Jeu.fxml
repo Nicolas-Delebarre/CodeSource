@@ -137,12 +137,13 @@
                 <RowConstraints minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
                 <RowConstraints minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
                 <RowConstraints minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
-                  
+                  <RowConstraints minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <padding>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </padding>
             </GridPane>
+            
             <AnchorPane fx:id="zoneDragMaison" layoutX="851.0" layoutY="-1.0" prefHeight="618.0" prefWidth="348.0" AnchorPane.rightAnchor="81.0">
                <children>
                   <ImageView fx:id="maisonPailleIV" fitHeight="232.0" fitWidth="232.0" layoutX="44.0" layoutY="14.0" onMouseExited="#exitFocusMaion" onMouseMoved="#focusMaison" onMousePressed="#aimantMaison" pickOnBounds="true" preserveRatio="true" rotate="90.0">
@@ -162,6 +163,7 @@
                   </ImageView>
                </children>
             </AnchorPane>
+            
             <ImageView fx:id="loading" fitHeight="70.0" fitWidth="70.0" layoutX="1308.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="40.0">
                <image>
                   <Image url="@../../ressources/images/load.png" />
